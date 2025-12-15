@@ -29,9 +29,7 @@ Repository Structure
 visionmodel/
 
 ├── customcnn/
-
 │   ├── augmentationvsnoaugmentation/
-
 │   │   ├── augmentation/
 │   │   │   └── augmentationcode.ipynb
 │   │   └── noaugmentation/
