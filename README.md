@@ -84,7 +84,7 @@ All experiments are implemented in **Jupyter notebooks** and are fully reproduci
 git clone https://github.com/your-username/healthcare-ai-assistant.git
 cd healthcare-ai-assistant
 
-Install dependencies
+#Install dependencies
 pip install -r requirements.txt
 ```
 Run the notebooks
