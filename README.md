@@ -22,9 +22,7 @@ All experiments are implemented in **Jupyter notebooks** and are fully reproduci
 
 ---
 
-## Repository Structure
-
-
+Repository Structure
 
 visionmodel/
 ├── customcnn/
@@ -50,9 +48,6 @@ inference/
 └── objectdetection/
     └── app.py
 
-
-
----
 
 ## Vision Models
 
