@@ -22,35 +22,31 @@ All experiments are implemented in **Jupyter notebooks** and are fully reproduci
 
 ---
 
-Repository Structure
+## Repository Structure
 
-##Repository Structure
+- **visionmodel/**
+  - **customcnn/**
+    - **augmentationvsnoaugmentation/**
+      - **augmentation/**
+        - `augmentationcode.ipynb`
+      - **noaugmentation/**
+        - `noaugmentationcode.ipynb`
+    - **l1vsl2/**
+      - `l1_l2_code.ipynb`
+  - **resnet-18/**
+    - **fruit360-dataset/**
+      - `pretrained.ipynb`
+    - **openimagesdataset/**
+      - `pretrained_open.ipynb`
 
-visionmodel/
+- **languagemodel/**
+  - **corellmliteracy/**
+    - `llm.ipynb`
 
-├── customcnn/
-│   ├── augmentationvsnoaugmentation/
-│   │   ├── augmentation/
-│   │   │   └── augmentationcode.ipynb
-│   │   └── noaugmentation/
-│   │       └── noaugmentationcode.ipynb
-│   ├── l1vsl2/
-│   │   └── l1_l2_code.ipynb
-│
-├── resnet-18/
-│   ├── fruit360-dataset/
-│   │   └── pretrained.ipynb
-│   └── openimagesdataset/
-│       └── pretrained_open.ipynb
-│
-languagemodel/
-└── corellmliteracy/
-    └── llm.ipynb
+- **inference/**
+  - **objectdetection/**
+    - `app.py`
 
-inference/
-└── objectdetection/
-    └── app.py
-p.py
 
 
 ## Vision Models
