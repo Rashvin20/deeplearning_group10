@@ -87,32 +87,7 @@ cd healthcare-ai-assistant
 #Install dependencies
 pip install -r requirements.txt
 ```
-Run the notebooks
-jupyter notebook
+All notebooks are executed using Jupyter, with each .ipynb run from top to bottom to automatically generate training curves, performance metrics (Accuracy, Macro-F1, BLEU, Perplexity), confusion matrices, and Grad-CAM visualisations.
+The project also evaluates sustainability by analysing FLOPs, parameter counts, runtime, and energy consumption, highlighting performance–compute trade-offs for responsible AI development.
 
-
-Open any .ipynb file and run all cells from top to bottom.
-
-Output
-
-When a notebook is executed:
-
-Training and validation plots are generated automatically
-
-Performance metrics (accuracy, Macro-F1, BLEU, perplexity) are computed
-
-Confusion matrices and Grad-CAM visualisations are produced
-
-Results are displayed and/or saved
-
-Sustainability
-
-The project evaluates:
-
-FLOPs and parameter counts for vision models
-
-Runtime and energy consumption for the LLM
-
-Performance versus compute trade-offs
-
-This supports responsible and sustainable AI development.
+Author: Group 10
