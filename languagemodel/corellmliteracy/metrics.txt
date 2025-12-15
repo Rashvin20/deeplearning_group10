@@ -1,0 +1,8 @@
+FOOD-ONLY CORE MODEL
+Epochs: 3
+Final validation loss: 2.817159652709961
+Perplexity: 16.72926620000204
+BLEU-2: 0.7646532397774851
+Runtime (seconds): 11943.682156801224
+Estimated energy (Wh): 232.2382641600238
+Energy proxy power (W): 70
