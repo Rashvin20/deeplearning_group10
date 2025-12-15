@@ -86,7 +86,7 @@ cd healthcare-ai-assistant
 
 Install dependencies
 pip install -r requirements.txt
-
+```
 Run the notebooks
 jupyter notebook
 
