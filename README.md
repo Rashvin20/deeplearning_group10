@@ -42,6 +42,9 @@ All experiments are implemented in **Colab notebooks** and are fully reproducibl
 - **languagemodel/**
   - **corellmliteracy/**
     - `llm.ipynb`
+  - **corellmFood/**
+    - `coreModelFood.py`
+    - `chatbot.py`
 
 - **inference/**
   - **objectdetection/**
