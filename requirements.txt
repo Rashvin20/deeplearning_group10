@@ -33,3 +33,4 @@ ipykernel
 flask
 fastapi
 uvicorn
+streamlit
