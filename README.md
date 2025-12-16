@@ -18,7 +18,7 @@ This coursework explores:
 - Model **robustness**, **interpretability (Grad-CAM)**, and **sustainability**
 - A core **LLM** evaluated using perplexity and BLEU
 
-All experiments are implemented in **Jupyter notebooks** and are fully reproducible.
+All experiments are implemented in **Colab notebooks** and are fully reproducible.
 
 ---
 
@@ -87,7 +87,7 @@ cd healthcare-ai-assistant
 #Install dependencies
 pip install -r requirements.txt
 ```
-All notebooks are executed using Jupyter, with each .ipynb run from top to bottom to automatically generate training curves, performance metrics (Accuracy, Macro-F1, BLEU, Perplexity), confusion matrices, and Grad-CAM visualisations.
+All notebooks are executed using Colab, with each .ipynb run from top to bottom to automatically generate training curves, performance metrics (Accuracy, Macro-F1, BLEU, Perplexity), confusion matrices, and Grad-CAM visualisations.
 The project also evaluates sustainability by analysing FLOPs, parameter counts, runtime, and energy consumption, highlighting performance–compute trade-offs for responsible AI development.
 
 Author: Group 10
